@@ -75,11 +75,9 @@ while (True):
             print "Quotient: ", div(a, b)
 		elif (op == "%"):
 			print "modulus division: ", mod(a, b)
-
 		elif (op == "**"):
 			print "Result: ", exp(a, b)        
 		else:
-
             print "Invalid operation..."
 
     q = raw_input("Quit? [y/n] ")
